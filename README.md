@@ -1,5 +1,7 @@
 # Mock Bank Operations App
 
+Created by **Daniel Rodrigues**
+
 This is a simple **React + TypeScript** application simulating home banking operations such as history, filtering, deposits and withdrawals. It demonstrates key frontend skills including:
 
 - TypeScript type safety
