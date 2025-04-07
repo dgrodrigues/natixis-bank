@@ -1,0 +1,40 @@
+.transaction-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.label {
+    font-size: 14px;
+}
+
+.transations-actions {
+    width: 100%;
+    display: flex;
+    gap: 15px;
+}
+
+.transaltion-action-title {
+    margin-top: 0;
+}
+
+.owner-actions .widthdraw,
+.transations-actions button {
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    height: 35px;
+    padding: 0 15px;
+    width: 50%;
+    cursor: pointer;
+}
+
+.owner-actions .widthdraw,
+.transations-actions button.widthdraw {
+    color: white;
+}
+
+.owner-actions .widthdraw,
+.transations-actions button.widthdraw {
+    background-color: #cc2936;
+}

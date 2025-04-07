@@ -1,0 +1,58 @@
+.overview-history-list {
+    width: 320px;
+    height: calc(100vh - 70px);
+    border-right: 1px solid #e0e2db;
+    overflow-y: scroll;
+}
+
+.filters {
+    padding: 15px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid #e0e2db;
+    background-color: white;
+}
+
+.filter-type {
+    width: 100%;
+    border-radius: 4px;
+    overflow: hidden;
+    border: 1px solid #beb7a4;
+    box-sizing: border-box;
+}
+
+.filter-type button {
+    width: calc(100% / 3);
+    border: none;
+    height: 35px;
+    background-color: #e0e2db;
+    cursor: pointer;
+}
+
+.filter-type button.active {
+    background-color: #191716;
+    color: white;
+}
+
+.filter-type button:nth-child(1),
+.filter-type button:nth-child(2) {
+    border-right: 1px solid #beb7a4;
+}
+
+.filter-category {
+    border: 1px solid #beb7a4;
+    background-color: #e0e2db;
+    width: 100%;
+    border-radius: 4px;
+    height: 35px;
+    padding: 0 15px;
+}
+
+.owner-actions {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}

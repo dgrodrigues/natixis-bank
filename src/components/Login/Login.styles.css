@@ -1,0 +1,49 @@
+.login-container {
+    max-width: 100%;
+    height: 100vh;
+    background-image: url("/login-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-form-panel {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 280px;
+}
+
+.login-form-panel h1 {
+    font-size: 30px;
+}
+
+.login-form-panel form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-form-panel .input {
+    width: 100%;
+}
+
+.login-form-panel button {
+    width: 100%;
+    height: 40px;
+    margin: 15px 0 20px 0;
+    border: none;
+    border-radius: 4px;
+    padding: 0px 10px;
+    background-color: #3d348b;
+    color: white;
+    font-weight: bold;
+}
+
+.login-error {
+    color: red;
+    font-weight: bold;
+}

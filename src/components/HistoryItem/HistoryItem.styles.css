@@ -1,0 +1,44 @@
+.history-item {
+    border-bottom: 1px solid #e0e2db;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+.history-item.selected {
+    background-color: #e6af2e;
+}
+
+.transaction-summary {
+    display: flex;
+}
+
+.transaction-description {
+    flex: 1;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.transaction-amounts {
+    display: flex;
+    flex-direction: column;
+}
+
+.transaction-amount {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.transaction-balance {
+    text-align: right;
+}
+
+.transaction-date,
+.transaction-balance {
+    font-size: 10px;
+    font-weight: bold;
+    color: #797977;
+}
